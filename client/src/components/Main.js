@@ -41,7 +41,7 @@ class Main extends Component {
                     
                       <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-6 text-left">
-                            <label>Email*</label>
+                            <label>Email</label>
                             <input type="email" name="email" className="form-control" onChange={handleChange}  defaultValue={values.status === 1 ? '' : values.email} required />
                         </div>
                         <div className="col-lg-6 text-left">
